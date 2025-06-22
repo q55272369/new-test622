@@ -4,6 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer({
   images: {
+    unoptimized: true,
     // 图片压缩
     formats: ['image/avif', 'image/webp'],
     // 允许next/image加载的图片 域名
